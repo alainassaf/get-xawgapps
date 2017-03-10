@@ -3,21 +3,22 @@ Lists active published applications from a designated XA 6.5 Worker Group
 
 # PS> get-help .\get-xawgapps.ps1 -full
 
-NAME
+NAME<br>
     get-xawgapps.ps1
     
-SYNOPSIS
+SYNOPSIS<br>
     Lists active published applications from a designated XA 6.5 Worker Group
     
-SYNTAX
+SYNTAX<br>
     get-xawgapps.ps1 [-WorkerGroup] <Object> [[-XMLBroker] <Object>] [<CommonParameters>]
     
     
-DESCRIPTION
+DESCRIPTION<br>
     Lists active published applications from a designated XA 6.5 Worker Group
     
 
-PARAMETERS
+PARAMETERS<br>
+    
     -WorkerGroup <Object>
         WorkerGroup to query for published applications.
         
@@ -42,21 +43,21 @@ PARAMETERS
         OutBuffer, PipelineVariable, and OutVariable. For more information, see 
         about_CommonParameters (http://go.microsoft.com/fwlink/?LinkID=113216). 
     
-INPUTS
+INPUTS<br>
     None
     
-OUTPUTS
+OUTPUTS<br>
     None
     
 NOTES
-    
-        NAME        :  get-xawgapps
-        VERSION     :  1.01
+
+        NAME:  get-xawgapps
+        VERSION:  1.01
         CHANGE LOG - Version - When - What - Who
         1.00 - 03/10/2017 - Initial script - Alain Assaf
         1.01 - 03/10/2017 - Simplyfied script to just one line doing all the work - Alain Assaf
         LAST UPDATED:  03/10/2017
-        AUTHOR      :  Alain Assaf
+        AUTHOR:  Alain Assaf
     
     -------------------------- EXAMPLE 1 --------------------------
     
